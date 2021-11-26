@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+}
+
+.square {
+  width: auto;
+  min-height: auto;
+}
+
+.desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .desktop {
+    display: inline-block;
+  }
+  .mobile {
+    display: none;
+  }
+
+  img.desktop {
+    width: 35%;
+    height: auto;
+  }
+}
