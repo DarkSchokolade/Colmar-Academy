@@ -19,8 +19,79 @@ a {
     display: none;
   }
 
-  img.desktop {
+  /* img.desktop {
     width: 35%;
     height: auto;
-  }
+  } */
+}
+
+.thesis-exhibit {
+  /* display: inline-block; */
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Section 4 */
+
+.thesis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.thesis-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 40%;
+  margin: 1rem 0rem;
+}
+
+.thesis-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.thesis-info:hover {
+  background-color: rgba(224, 224, 224, 1);
+}
+
+.thesis-info img {
+  width: 35%;
+  height: auto;
+  padding: 1rem 1rem;
+}
+
+.urban-text {
+  width: 100%;
+  padding-top: 1.5rem;
+}
+
+.urban-text p {
+  padding-top: 0.5rem;
+}
+
+.video {
+  margin: 2rem 1.5rem;
+  width: 60%;
+}
+
+.video video {
+  width: 100%;
+  height: auto;
+}
+
+.thesis-text {
+  width: 65%;
 }
